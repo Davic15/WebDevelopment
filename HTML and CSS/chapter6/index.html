@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <h2>Normal Table</h2>
+    <table>
+        <tr>
+            <td>15</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>60</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>90</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+    <h2>Table with header</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Column Two</th>
+            <th scope="col">Column Three</th>
+        </tr>
+        <tr>
+            <th scope="row">Value</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <th scope="row">Value</th>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+
+    <h2>Table with spanning columns</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ec</td>
+        </tr>
+    </table>
+    
+    <h2>Table with spanning rows</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>Commedy</td>
+            <td>News</td>
+        </tr>>
+        <tr>
+            <th>7pm - 8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr>
+    </table>
+
+    <h2>Long Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st January</th>>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th>2nd January</th>
+                <td>285</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <th>31st January</th>
+                <td>129</td>
+                <td>64</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>7824</td>
+                <td>1241</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Example Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Home started hosting</th>
+                <th scope="col">Premium business hosting</th>
+            </tr>>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Disk space</th>
+                <td>250mb</td>
+                <td>1gb</td>
+            </tr>
+            <tr>
+                <th scope="row">Bandwith</th>
+                <td>5gb per month</td>
+                <td>50gb per month</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td colspan="2">Sign up now and save 10%</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
